@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<style>
+		body {
+			opacity: 0;
+		}
+	</style>
+	<link rel="stylesheet" href="css/style.min.css?_v=20231225203546">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="250" data-scroll-show="5000" class="header">
+			<div class="header__container">
+				<a href="" class="header__logo"><img src="img/logo.svg" alt="Logo"></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul data-spollers="768,max" class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">all products</a></li>
+							<li class="menu__item">
+								<a href="" class="menu__link">Location</a>
+								<button data-spoller type="button" class="menu__arrow _icon-arrow-select"></button>
+								<ul class="menu__sub-list">
+									<li class="menu__sub-item">
+										<a href="" class="menu__sub-link">Location #1</a>
+									</li>
+									<li class="menu__sub-item">
+										<a href="" class="menu__sub-link">Location #2</a>
+									</li>
+									<li class="menu__sub-item">
+										<a href="" class="menu__sub-link">Location #3</a>
+									</li>
+									<li class="menu__sub-item">
+										<a href="" class="menu__sub-link">Location #4</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu__item"><a href="" class="menu__link">ABOUT</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Support</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions actions-header">
+					<!-- <a href="" class="actions-header__item _icon-search"></a> -->
+					<div class="actions-header__search" id="search-bar">
+						<input class="actions-header__search-txt" type="text" placeholder="Search..." />
+						<button type="submit" class="actions-header__submit _icon-search"></button>
+					</div>
+					<a href="" class="actions-header__item _icon-cart"></a>
+				</div>
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main main-section">
+				<div class="main-section__container">
+					<!-- Оболонка слайдера -->
+					<div class="main-section__slider swiper">
+						<!-- Частина слайдера, що рухається -->
+						<div class="main-section__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="main-section__slide swiper-slide">
+								<div class="main-section__body">
+									<div class="main-section__content">
+										<h1 class="main-section__title">The new phones are here take a look.</h1>
+										<h3 class="main-section__text">
+											<p>Lorem ipsum dolor sit amet, consectetur
+												adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi
+												turpis.</p>
+										</h3>
+										<button type="submit" class="main-section__button button">Explore</button>
+									</div>
+									<div class="main-section__image">
+										<picture><source srcset="img/main-section/01.webp" type="image/webp"><img src="img/main-section/01.png" alt="phone"></picture>
+									</div>
+								</div>
+							</div>
+							<div class="main-section__slide swiper-slide">
+								<div class="main-section__body">
+									<div class="main-section__content">
+										<h1 class="main-section__title">The new phones are here take a look.</h1>
+										<h3 class="main-section__text">
+											<p>Lorem ipsum dolor sit amet, consectetur
+												adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi
+												turpis.</p>
+										</h3>
+										<button type="submit" class="main-section__button button">Explore</button>
+									</div>
+									<div class="main-section__image">
+										<picture><source srcset="img/main-section/01.webp" type="image/webp"><img src="img/main-section/01.png" alt="phone"></picture>
+									</div>
+								</div>
+							</div>
+							<div class="main-section__slide swiper-slide">
+								<div class="main-section__body">
+									<div class="main-section__content">
+										<h1 class="main-section__title">The new phones are here take a look.</h1>
+										<h3 class="main-section__text">
+											<p>Lorem ipsum dolor sit amet, consectetur
+												adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi
+												turpis.</p>
+										</h3>
+										<button type="submit" class="main-section__button button">Explore</button>
+									</div>
+									<div class="main-section__image">
+										<picture><source srcset="img/main-section/01.webp" type="image/webp"><img src="img/main-section/01.png" alt="phone"></picture>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Якщо потрібна пагінація -->
+						<div class="main-section__control">
+							<div class="main-section__pagination"></div>
+						</div>
+						<button type="button" class="main-section__arrow main-section__arrow--left _icon-arrow-slider"></button>
+						<button type="button" class="main-section__arrow main-section__arrow--right _icon-arrow-slider"></button>
+					</div>
+				</div>
+			</section>
+			<section class="page__shop shop">
+				<div class="shop__header">
+					<div class="shop__title title">
+						<h2 class="title__lable">Shop our latest offers and categories</h2>
+						<div class="title__subtitle">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam,
+								tempor. Faucibus morbi turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="shop__container">
+					<div class="shop__cards">
+						<div class="shop__cards-left">
+							<div class="shop__card card-shop">
+								<div class="card-shop__image">
+									<picture><source srcset="img/shop/01.webp" type="image/webp"><img src="img/shop/01.png" alt="laptop" /></picture>
+								</div>
+								<div class="card-shop__content">
+									<h3 class="card-shop__subtitle">Laptops</h3>
+									<div class="card-shop__text">True Laptop Solution</div>
+								</div>
+							</div>
+							<div class="shop__card card-shop">
+								<div class="card-shop__image">
+									<picture><source srcset="img/shop/02.webp" type="image/webp"><img src="img/shop/02.png" alt="watch" /></picture>
+								</div>
+								<div class="card-shop__content">
+									<h3 class="card-shop__subtitle">Watch</h3>
+									<div class="card-shop__text">Not just stylisht</div>
+								</div>
+							</div>
+						</div>
+						<div class="shop__cards-right">
+							<div class="shop__card card-shop">
+								<div class="card-shop__image">
+									<picture><source srcset="img/shop/03.webp" type="image/webp"><img src="img/shop/03.png" alt="phone" /></picture>
+								</div>
+								<div class="card-shop__content">
+									<h3 class="card-shop__subtitle">Phones</h3>
+									<div class="card-shop__text">Your day to day life</div>
+								</div>
+							</div>
+							<div class="shop__card card-shop">
+								<div class="card-shop__image">
+									<picture><source srcset="img/shop/04.webp" type="image/webp"><img src="img/shop/04.png" alt="tablet" /></picture>
+								</div>
+								<div class="card-shop__content">
+									<h3 class="card-shop__subtitle">Tablet</h3>
+									<div class="card-shop__text">Empower your work</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__save save">
+				<div class="save__header">
+					<div class="save__title title">
+						<h2 class="title__lable">Save on our most selled items.</h2>
+						<div class="title__subtitle">
+							<p>Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
+						</div>
+					</div>
+				</div>
+				<div class="save__container">
+					<div class="save__items">
+						<article class="save__item">
+							<div class="save__body">
+								<a href="#" class="save__icon"><img src="img/save/01.svg" alt="MacBook Pro 13">
+								</a>
+								<h4 class="save__lable">MacBook Pro 13</h4>
+								<div class="save__text">
+									<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+								</div>
+								<a href="#" class="save__value">$ 1,200.00 USD</a>
+							</div>
+						</article>
+						<article class="save__item">
+							<div class="save__body">
+								<a href="#" class="save__icon"><img src="img/save/02.svg" alt="Smart Galaxy Watch 3">
+								</a>
+								<h4 class="save__lable">Smart Galaxy Watch 3</h4>
+								<div class="save__text">
+									<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+										adipisci velit...</p>
+								</div>
+								<a href="#" class="save__value">$ 199.00 USD</a>
+							</div>
+						</article>
+						<article class="save__item">
+							<div class="save__body">
+								<a href="#" class="save__icon"><img src="img/save/03.svg" alt="MacBook Air M1">
+								</a>
+								<h4 class="save__lable">MacBook Air M1</h4>
+								<div class="save__text">
+									<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+										adipisci velit...</p>
+								</div>
+								<a href="#" class="save__value">$ 1,009.00 USD</a>
+							</div>
+						</article>
+						<article class="save__item">
+							<div class="save__body">
+								<a href="#" class="save__icon"><img src="img/save/04.svg" alt="iPad">
+								</a>
+								<h4 class="save__lable">iPad</h4>
+								<div class="save__text">
+									<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+										adipisci velit...</p>
+								</div>
+								<a href="#" class="save__value">$ 610.00 USD</a>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="page__smart smart">
+				<div class="smart__header">
+					<div class="smart__title title">
+						<h2 class="title__lable">See the best around here</h2>
+						<div class="title__subtitle">
+							<p>Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
+						</div>
+					</div>
+				</div>
+				<div class="smart__container">
+					<div class="smart__items">
+						<article class="smart__item">
+							<div class="smart__body">
+								<h4 class="smart__lable">Smart light bulb pack</h4>
+								<div class="smart__text">
+									<p>Latest and gratest</p>
+								</div>
+								<a href="#" class="smart__button button">Explore</a>
+								<a href="#" class="smart__icon"><picture><source srcset="img/smart/01.webp" type="image/webp"><img src="img/smart/01.png" alt="watch"></picture>
+								</a>
+							</div>
+						</article>
+						<article class="smart__item">
+							<div class="smart__body">
+								<h4 class="smart__lable">Smart light bulb pack</h4>
+								<div class="smart__text">
+									<p>Latest and gratest</p>
+								</div>
+								<a href="#" class="smart__button button">Explore</a>
+								<a href="#" class="smart__icon"><picture><source srcset="img/smart/02.webp" type="image/webp"><img src="img/smart/02.png" alt="phone"></picture>
+								</a>
+							</div>
+						</article>
+						<article class="smart__item">
+							<div class="smart__body">
+								<h4 class="smart__lable">Smart light bulb pack</h4>
+								<div class="smart__text">
+									<p>Latest and gratest</p>
+								</div>
+								<a href="#" class="smart__button button">Explore</a>
+								<a href="#" class="smart__icon"><picture><source srcset="img/smart/03.webp" type="image/webp"><img src="img/smart/03.png" alt="laptop"></picture>
+								</a>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="page__our our">
+				<div class="our__header">
+					<div class="our__title title">
+						<h2 class="title__lable">Ideas have a place here</h2>
+						<div class="title__subtitle">
+							<p>Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
+						</div>
+					</div>
+				</div>
+				<div class="our__container">
+					<div class="our__image">
+						<picture><source srcset="img/our/01.webp" type="image/webp"><img src="img/our/01.jpg" alt=""></picture>
+					</div>
+					<div class="our__content">
+						<div class="our__text">
+							<a class="our__link" href="#">
+								We Make It Easy To Find The Great Design Talent, Easier...
+							</a>
+							<a class="our__link" href="#">
+								Road Design Handbook For The International Road...
+							</a>
+							<a class="our__link" href="#">
+								The Best Kept Secrets About Creative People
+							</a>
+							<a class="our__link" href="#">
+								We Make It Easy To Find The Great Design Talent, Easier...
+							</a>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="our__button _icon-arrow-text">See all</a>
+			</section>
+			<section class="page__looking looking">
+				<div class="looking__header">
+					<div class="looking__title title">
+						<h2 class="title__lable">Looking for anything else?</h2>
+					</div>
+				</div>
+				<div class="looking__container">
+					<div class="looking__search">
+						<div class="search-form">
+							<form action="#" class="search-form__item">
+								<button type="submit" class="search-form__btn _icon-search"></button>
+								<input autocomplete="off" type="text" name="form[]" value="Search keyword" class="search-form__input" id="searchInput">
+							</form>
+						</div>
+					</div>
+					<div class="looking__items" id="lookingItems">
+						<a href="#" class="looking__item">
+							<div class="looking__link">iPhone</div>
+						</a>
+						<a href="#" class="looking__item">
+							<div class="looking__link">Charger</div>
+						</a>
+						<a href="#" class="looking__item">
+							<div class="looking__link">Gift</div>
+						</a>
+						<a href="#" class="looking__item">
+							<div class="looking__link">Google Pixel 3</div>
+						</a>
+						<a href="#" class="looking__item">
+							<div class="looking__link">Keyboard</div>
+						</a>
+						<a href="#" class="looking__item">
+							<div class="looking__link">13 Pro Max</div>
+						</a>
+						<a href="#" class="looking__item">
+							<div class="looking__link">iPhone 12</div>
+						</a>
+						<a href="#" class="looking__item">
+							<div class="looking__link">Laptop</div>
+						</a>
+						<a href="#" class="looking__item">
+							<div class="looking__link">Mobile</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="page__never never">
+				<div class="never__container">
+					<div class="never__header">
+						<div class="never__title title">
+							<h2 class="title__lable">Never miss a thing</h2>
+							<div class="title__subtitle title__subtitle--16">
+								<p>Sign up for texts to be notified about our best offers on the perfect gifts.</p>
+							</div>
+						</div>
+					</div>
+					<div class="never__image">
+						<picture><source srcset="img/never/01.webp" type="image/webp"><img src="img/never/01.png" alt=""></picture>
+					</div>
+					<div class="never__form form">
+						<form action="#" class="form">
+							<input data-required="email" autocomplete="off" type="email" name="form[]" data-error="error" placeholder="Your Mail" class="form__input">
+							<button type="submit" class="form__button">Sign up</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__main main-footer">
+					<div class="main-footer__about about-main-footer">
+						<a href="#" class="about-main-footer__logo"><img src="img/logo.svg" alt="logo"></a>
+						<div class="about-main-footer__text">
+							<p>Sign up for texts to be notified about our best offers on the perfect gifts.</p>
+						</div>
+					</div>
+					<div data-spollers="479.98,max" data-one-spoller class="main-footer__info info-main-footer">
+						<div class="info-main-footer__column">
+							<button type="button" data-spoller data-spoller-close class="info-main-footer__title">All
+								products</button>
+							<ul class="info-main-footer__list">
+								<li class="info-main-footer__item"><a href="#" class="info-main-footer__link">Phones</a></li>
+								<li class="info-main-footer__item"><a href="#" class="info-main-footer__link">Watch</a>
+								</li>
+								<li class="info-main-footer__item"><a href="#" class="info-main-footer__link">Tablet</a>
+								</li>
+								<li class="info-main-footer__item"><a href="#" class="info-main-footer__link">Laptops</a></li>
+							</ul>
+						</div>
+						<div class="info-main-footer__column">
+							<button type="button" data-spoller data-spoller-close class="info-main-footer__title">Company</button>
+							<ul class="info-main-footer__list">
+								<li class="info-main-footer__item"><a href="#" class="info-main-footer__link">About</a></li>
+								<li class="info-main-footer__item"><a href="#" class="info-main-footer__link">Support</a>
+								</li>
+							</ul>
+						</div>
+						<div class="info-main-footer__column">
+							<button type="button" data-spoller data-spoller-close class="info-main-footer__title">Support</button>
+							<ul class="info-main-footer__list">
+								<li class="info-main-footer__item"><a href="#" class="info-main-footer__link">Style Guide</a>
+								</li>
+								<li class="info-main-footer__item"><a href="#" class="info-main-footer__link">Licensing</a>
+								</li>
+								<li class="info-main-footer__item"><a href="#" class="info-main-footer__link">Change Log</a>
+								</li>
+								<li class="info-main-footer__item"><a href="#" class="info-main-footer__link">Contact</a>
+								</li>
+							</ul>
+						</div>
+						<div class="info-main-footer__column">
+							<button type="button" data-spoller data-spoller-close class="info-main-footer__title">Follow
+								Us</button>
+							<ul class="info-main-footer__list">
+								<li class="info-main-footer__item"><a href="#" class="info-main-footer__link">Instagram</a>
+								</li>
+								<li class="info-main-footer__item"><a href="#" class="info-main-footer__link">Facebook</a>
+								</li>
+								<li class="info-main-footer__item"><a href="#" class="info-main-footer__link">LinkedIn</a></li>
+								<li class="info-main-footer__item"><a href="#" class="info-main-footer__link">Youtube</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20231225203546"></script>
+</body>
+
+</html>
